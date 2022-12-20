@@ -1,10 +1,14 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import { Container } from "../components/Container";
 // import logo from "../images/LOGO.png";
 
 const Detail2 = () => {
   return (
     <div className="relative min-h-[600px] w-full  text-lg">
+       <Helmet>
+        <title>Diyetisyen Sinem Tan</title>
+      </Helmet>
       <Container>
         <h1 className="mt-[30px] text-xl font-medium">
           Neden DİYETİSYEN SİNEM TAN?
